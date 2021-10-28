@@ -1,12 +1,15 @@
 {
   "devDependencies": {
+    "@types/node-fetch": "^3.0.3",
     "ts-node": "^10.3.1",
     "typescript": "^4.4.4"
   },
   "dependencies": {
-    "node-fetch": "^3.0.0"
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.14"
   },
   "scripts": {
-    "start": "ts-node Array.ts"
- }
+    "start": "./http/*.ts"
+  },
+  "type": "module"
 }
